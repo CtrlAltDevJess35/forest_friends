@@ -1,0 +1,26 @@
+{
+    "activeFile": "Forest01.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "Alle Dateien (*)",
+    "fileStates": {
+        "Forest01.tmx": {
+            "scale": 1.304765625,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 319.9808394706904,
+                "y": 240.27303754266208
+            }
+        },
+        "Town.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "openFiles": [
+        "Forest01.tmx"
+    ],
+    "project": "character.tiled-project",
+    "recentFiles": [
+        "Forest01.tmx"
+    ]
+}

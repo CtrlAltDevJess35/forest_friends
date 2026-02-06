@@ -1,0 +1,63 @@
+name: forest_friends
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+
+    
+
+  cupertino_icons: ^1.0.8
+  flame: ^1.34.0
+  flame_tiled: ^3.0.9
+  flutter_animate: ^4.5.2
+  flame_audio: ^2.11.12
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/characters/
+    - assets/images/Game_Background.jpg
+    - assets/images/pause.png
+    - assets/tiles/
+    - assets/tiles/Forest01.tmx
+    - assets/audio/
+
+  fonts:
+    - family: PixelFont
+      fonts:
+        - asset: assets/images/Kenney Pixel Square.ttf
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/images/icon.jpg"
+  
+

@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Git: Reset Hard to origin/main",
+      "type": "shell",
+      "command": "git fetch --all && git reset --hard origin/main",
+      "problemMatcher": []
+    }
+  ]
+}
